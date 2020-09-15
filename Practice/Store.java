@@ -28,10 +28,12 @@ public class Store {
 
   // main method
   public static void main(String[] args) {
-    Store lemonadeStand = new Store("lemonade", 3.75);
+    Store lemonadeStand = new Store("Lemonade", 3.75);
     Store cookieShop = new Store("cookies", 2.50);
+    Store artStore = new Store("stolen art", 40.00);
     double lemonadePrice = lemonadeStand.getPriceWithTax();
     System.out.println(lemonadeStand);
+    System.out.println(artStore);
     System.out.println(cookieShop);
   }
 }
